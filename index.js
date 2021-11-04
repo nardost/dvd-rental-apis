@@ -35,7 +35,8 @@ app.use((err, req, res, next) => {
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
-  console.log(`DVD Rental backend listening at port ${port}`)
+  console.log(`DVD Rental backend listening at port ${port}`);
+  console.log(process);
 })
 
 module.exports = app;
